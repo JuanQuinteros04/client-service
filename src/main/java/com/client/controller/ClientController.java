@@ -1,7 +1,7 @@
 package com.client.controller;
 
-import com.client.model.DTO.ClientDTO;
-import com.client.model.DTO.ClientResponse;
+import com.commons.client.model.DTO.ClientDTO;
+import com.commons.client.model.DTO.ClientResponse;
 import com.client.service.ClientService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;

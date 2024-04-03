@@ -1,11 +1,11 @@
 package com.client.service;
 
 import com.client.exceptions.NotFoundException;
-import com.client.model.Client;
-import com.client.model.DTO.ClientDTO;
-import com.client.model.DTO.ClientResponse;
-import com.client.model.mapper.ClientMapper;
 import com.client.persistence.ClientRepository;
+import com.commons.client.model.Client;
+import com.commons.client.model.DTO.ClientDTO;
+import com.commons.client.model.DTO.ClientResponse;
+import com.commons.client.model.mappers.ClientMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -14,9 +14,9 @@ import java.util.stream.Collectors;
 
 @Service
 public class ClientServiceImpl implements ClientService{
-    @Autowired
-    ClientRepository clientRepository;
 
+    @Autowired
+     private ClientRepository clientRepository;
     ClientMapper clientMapper = ClientMapper.INSTANCE;
 
     @Override

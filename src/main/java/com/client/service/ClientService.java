@@ -1,7 +1,7 @@
 package com.client.service;
 
-import com.client.model.DTO.ClientDTO;
-import com.client.model.DTO.ClientResponse;
+import com.commons.client.model.DTO.ClientDTO;
+import com.commons.client.model.DTO.ClientResponse;
 
 import java.util.List;
 
