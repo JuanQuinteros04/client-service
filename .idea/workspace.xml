@@ -4,23 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12841226-47bc-4b8e-abac-5031779639e4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+    <list default="true" id="12841226-47bc-4b8e-abac-5031779639e4" name="Changes" comment="Adding the Commons dependency.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/client/ClientServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/client/ClientServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/client/controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/client/controller/ClientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/client/model/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/client/model/DTO/ClientDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/client/model/DTO/ClientResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/client/model/mapper/ClientMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/client/persistence/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/client/persistence/ClientRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/client/service/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/client/service/ClientService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/client/service/ClientServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/client/service/ClientServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,22 +37,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.ClientServiceApplication.executor": "Run",
-    "Maven.client-service [clean,compile].executor": "Run",
-    "Maven.client-service [clean,install].executor": "Run",
-    "Maven.client-service [clean].executor": "Run",
-    "Maven.client-service [compile].executor": "Run",
-    "Maven.service-client [clean,compile].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Apps/JDK17/client-service/src/main/java/com/client"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.ClientServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.client-service [clean,compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.client-service [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.client-service [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.client-service [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.service-client [clean,compile].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Apps/JDK17/client-service/src/main/java/com/client&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Apps\JDK17\client-service\src\main\java\com\client" />
@@ -96,9 +82,47 @@
       <option name="presentableId" value="Default" />
       <updated>1711642609352</updated>
     </task>
+    <task id="LOCAL-00001" summary="Adding missing files to the project regarding Maven.">
+      <option name="closed" value="true" />
+      <created>1712186083303</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712186083303</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Removing classes used in commons.">
+      <option name="closed" value="true" />
+      <created>1712186995517</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712186995517</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Using Commons dependency.">
+      <option name="closed" value="true" />
+      <created>1712187031799</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712187031799</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Adding the Commons dependency.">
+      <option name="closed" value="true" />
+      <created>1712187057621</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712187057621</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Adding missing files to the project regarding Maven." />
+    <MESSAGE value="Removing classes used in commons." />
+    <MESSAGE value="Using Commons dependency." />
+    <MESSAGE value="Adding the Commons dependency." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding the Commons dependency." />
   </component>
 </project>
